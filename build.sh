@@ -3,7 +3,7 @@
 set -o errexit
 
 # poetry install
-pip install -r requeriments.txt
+# pip install -r requeriments.txt
 
 python manage.py collectstatic --mo-input
 python manage.py migrategit ini
